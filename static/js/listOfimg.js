@@ -1,0 +1,133 @@
+var myGallery = '{"image":[' +
+    
+    '{"p":"65","name":"doll01","linkBig":"../static/img/doll01_port.jpg","linkSmall":"../static/img/doll01_tumb.jpg","type":"portrait"},'
++
+    '{"p":"64","name":"doll02","linkBig":"../static/img/doll02_port.jpg","linkSmall":"../static/img/doll02_tumb.jpg","type":"portrait"},'
++
+    '{"p":"63","name":"doll03","linkBig":"../static/img/doll03_port.jpg","linkSmall":"../static/img/doll03_tumb.jpg","type":"portrait"},'
++
+    '{"p":"62","name":"doll041","linkBig":"../static/img/doll041_port.jpg","linkSmall":"../static/img/doll041_tumb.jpg","type":"portrait"},'
++
+    '{"p":"61","name":"doll04","linkBig":"../static/img/doll04_port.jpg","linkSmall":"../static/img/doll04_tumb.jpg","type":"portrait"},'
++
+    '{"p":"60","name":"doll051","linkBig":"../static/img/doll051_port.jpg","linkSmall":"../static/img/doll051_tumb.jpg","type":"portrait"},'
++
+    '{"p":"59","name":"doll05","linkBig":"../static/img/doll05_port.jpg","linkSmall":"../static/img/doll05_tumb.jpg","type":"portrait"},'
++
+    '{"p":"58","name":"doll06","linkBig":"../static/img/doll06_port.jpg","linkSmall":"../static/img/doll06_tumb.jpg","type":"portrait"},'
++
+    '{"p":"57","name":"doll07","linkBig":"../static/img/doll07_port.jpg","linkSmall":"../static/img/doll07_tumb.jpg","type":"portrait"},'
++
+    '{"p":"56","name":"doll08","linkBig":"../static/img/doll08_port.jpg","linkSmall":"../static/img/doll08_tumb.jpg","type":"portrait"},'
++
+    '{"p":"55","name":"fotb01","linkBig":"../static/img/fotb01_port.jpg","linkSmall":"../static/img/fotb01_tumb.jpg","type":"portrait"},'
++
+    '{"p":"54","name":"fotb02","linkBig":"../static/img/fotb02_port.jpg","linkSmall":"../static/img/fotb02_tumb.jpg","type":"portrait"},'
++
+    '{"p":"53","name":"fred02","linkBig":"../static/img/fred02_port.jpg","linkSmall":"../static/img/fred02_tumb.jpg","type":"portrait"},'
++
+    '{"p":"52","name":"fred03","linkBig":"../static/img/fred03_port.jpg","linkSmall":"../static/img/fred03_tumb.jpg","type":"portrait"},'
++
+    '{"p":"51","name":"fred04","linkBig":"../static/img/fred04_port.jpg","linkSmall":"../static/img/fred04_tumb.jpg","type":"portrait"},'
++
+    '{"p":"50","name":"jake01","linkBig":"../static/img/jake01_port.jpg","linkSmall":"../static/img/jake01_tumb.jpg","type":"portrait"},'
++
+    '{"p":"49","name":"jake02","linkBig":"../static/img/jake02_port.jpg","linkSmall":"../static/img/jake02_tumb.jpg","type":"portrait"},'
++
+    '{"p":"48","name":"laly03","linkBig":"../static/img/laly03_port.jpg","linkSmall":"../static/img/laly03_tumb.jpg","type":"portrait"},'
++
+    '{"p":"47","name":"laly02","linkBig":"../static/img/laly02_port.jpg","linkSmall":"../static/img/laly02_tumb.jpg","type":"portrait"},'
++
+    '{"p":"46","name":"laly01","linkBig":"../static/img/laly01_port.jpg","linkSmall":"../static/img/laly01_tumb.jpg","type":"portrait"},'
++
+    '{"p":"45","name":"pat01","linkBig":"../static/img/pat01_port.jpg","linkSmall":"../static/img/pat01_tumb.jpg","type":"portrait"},'
++
+    '{"p":"44","name":"pat02","linkBig":"../static/img/pat02_port.jpg","linkSmall":"../static/img/pat02_tumb.jpg","type":"portrait"},'
++
+    '{"p":"43","name":"pat03","linkBig":"../static/img/pat03_port.jpg","linkSmall":"../static/img/pat03_tumb.jpg","type":"portrait"},'
++
+    '{"p":"42","name":"pat04","linkBig":"../static/img/pat04_port.jpg","linkSmall":"../static/img/pat04_tumb.jpg","type":"portrait"},'
++
+    '{"p":"41","name":"olaf","linkBig":"../static/img/olaf_port.jpg","linkSmall":"../static/img/olaf_tumb.jpg","type":"portrait"},'
++
+    '{"p":"40","name":"med01","linkBig":"../static/img/med01_port.jpg","linkSmall":"../static/img/med01_tumb.jpg","type":"portrait"},'
++
+    '{"p":"39","name":"med02","linkBig":"../static/img/med02_port.jpg","linkSmall":"../static/img/med02_tumb.jpg","type":"portrait"},'
++
+    '{"p":"38","name":"med03","linkBig":"../static/img/med03_port.jpg","linkSmall":"../static/img/med03_tumb.jpg","type":"portrait"},'
++
+    '{"p":"37","name":"kral01","linkBig":"../static/img/kral01_port.jpg","linkSmall":"../static/img/kral01_tumb.jpg","type":"portrait"},'
++
+    '{"p":"36","name":"kral02","linkBig":"../static/img/kral02_port.jpg","linkSmall":"../static/img/kral02_tumb.jpg","type":"portrait"},'
++
+    '{"p":"35","name":"meda00","linkBig":"../static/img/meda00_port.jpg","linkSmall":"../static/img/meda00_tumb.jpg","type":"portrait"},'
++
+    '{"p":"34","name":"meda01","linkBig":"../static/img/meda01_port.jpg","linkSmall":"../static/img/meda01_tumb.jpg","type":"portrait"},'
++
+    '{"p":"33","name":"meda02","linkBig":"../static/img/meda02_port.jpg","linkSmall":"../static/img/meda02_tumb.jpg","type":"portrait"},'
++
+    '{"p":"32","name":"meda03","linkBig":"../static/img/meda03_port.jpg","linkSmall":"../static/img/meda03_tumb.jpg","type":"portrait"},'
++
+    '{"p":"31","name":"meda04","linkBig":"../static/img/meda04_port.jpg","linkSmall":"../static/img/meda04_tumb.jpg","type":"portrait"},'
++
+    '{"p":"30","name":"ptak01","linkBig":"../static/img/ptak01_port.jpg","linkSmall":"../static/img/ptak01_tumb.jpg","type":"portrait"},'
++
+    '{"p":"29","name":"jezo01","linkBig":"../static/img/jezo01_land.jpg","linkSmall":"../static/img/jezo01_tumb.jpg","type":"landscape"},'
++
+    '{"p":"28","name":"jezo02","linkBig":"../static/img/jezo02_land.jpg","linkSmall":"../static/img/jezo02_tumb.jpg","type":"landscape"},'
++
+    '{"p":"27","name":"jo01","linkBig":"../static/img/jo01_land.jpg","linkSmall":"../static/img/jo01_tumb.jpg","type":"landscape"},'
++
+    '{"p":"26","name":"jo02","linkBig":"../static/img/jo02_land.jpg","linkSmall":"../static/img/jo02_tumb.jpg","type":"landscape"},'
++
+    '{"p":"25","name":"konik01","linkBig":"../static/img/konik01_land.jpg","linkSmall":"../static/img/konik01_tumb.jpg","type":"landscape"},'
++
+    '{"p":"24","name":"konik02","linkBig":"../static/img/konik02_land.jpg","linkSmall":"../static/img/konik02_tumb.jpg","type":"landscape"},'
++
+    '{"p":"23","name":"konik06","linkBig":"../static/img/konik06_land.jpg","linkSmall":"../static/img/konik06_tumb.jpg","type":"landscape"},'
++
+    '{"p":"22","name":"konik04","linkBig":"../static/img/konik04_land.jpg","linkSmall":"../static/img/konik04_tumb.jpg","type":"landscape"},'
++
+    '{"p":"21","name":"konik05","linkBig":"../static/img/konik05_land.jpg","linkSmall":"../static/img/konik05_tumb.jpg","type":"landscape"},'
++
+    '{"p":"20","name":"konik07","linkBig":"../static/img/konik07_land.jpg","linkSmall":"../static/img/konik07_tumb.jpg","type":"landscape"},'
++
+    '{"p":"19","name":"snek01","linkBig":"../static/img/snek01_land.jpg","linkSmall":"../static/img/snek01_tumb.jpg","type":"landscape"},'
++
+    '{"p":"18","name":"snek02","linkBig":"../static/img/snek02_land.jpg","linkSmall":"../static/img/snek02_tumb.jpg","type":"landscape"},'
++
+    '{"p":"17","name":"snek03","linkBig":"../static/img/snek03_land.jpg","linkSmall":"../static/img/snek03_tumb.jpg","type":"landscape"},'
++
+    '{"p":"16","name":"snek05","linkBig":"../static/img/snek05_land.jpg","linkSmall":"../static/img/snek05_tumb.jpg","type":"landscape"},'
++
+    '{"p":"15","name":"snek06","linkBig":"../static/img/snek06_land.jpg","linkSmall":"../static/img/snek06_tumb.jpg","type":"landscape"},'
++
+    '{"p":"14","name":"snek07","linkBig":"../static/img/snek07_land.jpg","linkSmall":"../static/img/snek07_tumb.jpg","type":"landscape"},'
++
+    '{"p":"13","name":"snek08","linkBig":"../static/img/snek08_land.jpg","linkSmall":"../static/img/snek08_tumb.jpg","type":"landscape"},'
++
+    '{"p":"12","name":"snek09","linkBig":"../static/img/snek09_land.jpg","linkSmall":"../static/img/snek09_tumb.jpg","type":"landscape"},'
++
+    '{"p":"11","name":"sob01","linkBig":"../static/img/sob01_port.jpg","linkSmall":"../static/img/sob01_tumb.jpg","type":"portrait"},'
++
+    '{"p":"10","name":"sob02","linkBig":"../static/img/sob02_port.jpg","linkSmall":"../static/img/sob02_tumb.jpg","type":"portrait"},'
++
+    '{"p":"9","name":"sob03","linkBig":"../static/img/sob03_port.jpg","linkSmall":"../static/img/sob03_tumb.jpg","type":"portrait"},'
++
+    '{"p":"8","name":"sob04","linkBig":"../static/img/sob04_port.jpg","linkSmall":"../static/img/sob04_tumb.jpg","type":"portrait"},'
++
+    '{"p":"7","name":"yoda01","linkBig":"../static/img/yoda01_port.jpg","linkSmall":"../static/img/yoda01_tumb.jpg","type":"portrait"},'
++
+    '{"p":"6","name":"yoda02","linkBig":"../static/img/yoda02_port.jpg","linkSmall":"../static/img/yoda02_tumb.jpg","type":"portrait"},'
++
+    '{"p":"5","name":"yoda03","linkBig":"../static/img/yoda03_port.jpg","linkSmall":"../static/img/yoda03_tumb.jpg","type":"portrait"},'
++
+    '{"p":"4","name":"yoda04","linkBig":"../static/img/yoda04_port.jpg","linkSmall":"../static/img/yoda04_tumb.jpg","type":"portrait"},'
++
+    '{"p":"3","name":"yoda05","linkBig":"../static/img/yoda05_port.jpg","linkSmall":"../static/img/yoda05_tumb.jpg","type":"portrait"},'
++
+    '{"p":"2","name":"yoda06","linkBig":"../static/img/yoda06_port.jpg","linkSmall":"../static/img/yoda06_tumb.jpg","type":"portrait"},'
++
+    '{"p":"1","name":"yoda_darth01","linkBig":"../static/img/yoda_darth01_port.jpg","linkSmall":"../static/img/yoda_darth01_tumb.jpg","type":"portrait"},'
++
+    '{"p":"0","name":"yoda_darth02","linkBig":"../static/img/yoda_darth02_port.jpg","linkSmall":"../static/img/yoda_darth02_tumb.jpg","type":"portrait"}]}';
