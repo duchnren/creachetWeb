@@ -1,0 +1,53 @@
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 100vw;
+	max-height: 80vh;
+
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.pager {
+    margin: 10px 0;
+}
+
+.previous a, .next a {
+    color: #999;
+}
+
+.lightbox .box-img {
+    margin: 2% auto;
+    width: -webkit-min-content;
+  	width: -moz-min-content;
+  	width: min-content;
+	padding: 5px 5px;
+	background-color:#FFF;
+	box-shadow: 0px 1px 10px -3px #777777; 
+    border-radius: 5px;
+}
+
+.lightbox p {
+    padding: 0;
+    margin: 0;
+}

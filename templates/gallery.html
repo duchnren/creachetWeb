@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="full" lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    
     <link rel="icon" href="../static/img/logo.ico">
 
-    <title>Galerie</title>
+    <title>Créachet - háčkované tvoření</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Custom CSS -->
-    <link href="../static/css/mycss.css" rel="stylesheet"> 
-    <!-- FancyBox gallery -->
-    <link rel="stylesheet" href="../static/css/jquery.fancybox.css" media="screen">
+    <link href="../static/css/mycss.css" rel="stylesheet">
+    <link href="../static/css/gallery.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Kalam:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,11 +29,16 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 
 <body>
+
+    <div class="brand"><img class="img-responsive img-center" src="../static/img/nove_logo2.png"></div>
+    <!--<div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>-->
+
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -39,22 +48,26 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="base.html">Créachet</a>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Créachet</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
                     <li>
                         <a href="gallery.html">Galerie</a>
                     </li>
-                    <!--<li>
-                        <a href="patterns.html">Návody</a>
+                    <li>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="tobuy.html">Ke koupi</a>
-                    </li>-->
+                        <a href="blog.html">Blog</a>
+                    </li>
                     <li>
-                        <a href="about.html">O mě</a>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -65,135 +78,595 @@
 
     <!-- Page Content -->
     <div class="container">
-        <div class="row">
+        
+        <div class="box">
+            
+            <div class="col-lg-12 text-center">
+                <h1 class="brand-name">Galerie</h1>
+                <hr>
+            </div>
+            
+            
+    <!--        <div id="content">
+                <div class="z1">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/doll01_port.jpg">
+                                <img id="img1" class="thumbnail img-responsive" src="../static/img/doll01_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/doll02_port.jpg">
+                                <img id="img2" class="thumbnail img-responsive" src="../static/img/doll02_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/doll03_port.jpg">
+                                <img id="img3" class="thumbnail img-responsive" src="../static/img/doll03_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/doll041_port.jpg">
+                                <img id="img4" class="thumbnail img-responsive" src="../static/img/doll041_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/doll04_port.jpg">
+                                <img id="img5" class="thumbnail img-responsive" src="../static/img/doll04_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/doll051_port.jpg">
+                                <img id="img6" class="thumbnail img-responsive" src="../static/img/doll051_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/doll05_port.jpg">
+                                <img id="img7" class="thumbnail img-responsive" src="../static/img/doll05_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/doll06_port.jpg">
+                                <img id="img8" class="thumbnail img-responsive" src="../static/img/doll06_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/doll07_port.jpg">
+                                <img id="img9" class="thumbnail img-responsive" src="../static/img/doll07_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/doll08_port.jpg">
+                                <img id="img10" class="thumbnail img-responsive" src="../static/img/doll08_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/fotb01_port.jpg">
+                                <img id="img11" class="thumbnail img-responsive" src="../static/img/fotb01_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/fotb02_port.jpg">
+                                <img id="img12" class="thumbnail img-responsive" src="../static/img/fotb02_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/konik01_land.jpg">
+                                <img id="img13" class="thumbnail img-responsive" src="../static/img/konik01_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/konik02_land.jpg">
+                                <img id="img14" class="thumbnail img-responsive" src="../static/img/konik02_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/konik06_land.jpg">
+                                <img id="img15" class="thumbnail img-responsive" src="../static/img/konik06_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/konik04_land.jpg">
+                                <img id="img16" class="thumbnail img-responsive" src="../static/img/konik04_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/konik05_land.jpg">
+                                <img id="img17" class="thumbnail img-responsive" src="../static/img/konik05_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+                            <a rel="lightbox" href="../static/img/konik07_land.jpg">
+                                <img id="img18" class="thumbnail img-responsive" src="../static/img/konik07_tumb.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
             <div class="col-lg-12">
-                <h1 class="page-header">Galerie</h1>
-            </div>
-        </div>
-
-        <div id="content">
-            <div class="z1">
-                <div class="row">
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/doll01.jpg">
-                            <img class="img-responsive" src="../static/img/doll01_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/doll02.jpg">
-                            <img class="img-responsive" src="../static/img/doll02_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/doll03.jpg">
-                            <img class="img-responsive" src="../static/img/doll03_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/doll041_port.jpg">
-                            <img class="img-responsive" src="../static/img/doll041_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/doll04.jpg">
-                            <img class="img-responsive" src="../static/img/doll04_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/doll051_port.jpg">
-                            <img class="img-responsive" src="../static/img/doll051_tumb.jpg" alt="">
-                        </a>
+                <div id="content">
+                    <div class="z1">                    
+                        <div class="row">
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img1"><img class="thumbnail img-responsive" src="../static/img/doll01_tumb.jpg"></a>
+                                <div id="img1" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/doll01_port.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img18">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img2">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img2"><img class="thumbnail img-responsive" src="../static/img/doll02_tumb.jpg"></a>
+                                <div id="img2" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/doll02_port.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img1">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img3">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img3"><img class="thumbnail img-responsive" src="../static/img/doll03_tumb.jpg"></a>
+                                <div id="img3" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/doll03_port.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img2">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img4">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img4"><img class="thumbnail img-responsive" src="../static/img/doll041_tumb.jpg"></a>
+                                <div id="img4" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/doll041_port.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img3">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img5">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img5"><img class="thumbnail img-responsive" src="../static/img/doll04_tumb.jpg"></a>
+                                <div id="img5" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/doll04_port.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img4">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img6">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img6"><img class="thumbnail img-responsive" src="../static/img/doll051_tumb.jpg"></a>
+                                <div id="img6" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/doll051_port.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img5">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img7">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img7"><img class="thumbnail img-responsive" src="../static/img/doll05_tumb.jpg"></a>
+                                <div id="img7" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/doll05_port.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img6">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img8">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img8"><img class="thumbnail img-responsive" src="../static/img/doll06_tumb.jpg"></a>
+                                <div id="img8" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/doll06_port.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img7">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img9">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img9"><img class="thumbnail img-responsive" src="../static/img/doll07_tumb.jpg"></a>
+                                <div id="img9" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/doll07_port.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img8">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img10">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img10"><img class="thumbnail img-responsive" src="../static/img/doll08_tumb.jpg"></a>
+                               <div id="img10" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/doll08_port.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img9">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img11">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img11"><img class="thumbnail img-responsive" src="../static/img/fotb01_tumb.jpg"></a>
+                                <div id="img11" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/fotb01_port.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img10">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img12">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img12"><img class="thumbnail img-responsive" src="../static/img/fotb02_tumb.jpg"></a>
+                                <div id="img12" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/fotb02_port.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img11">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img13">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img13"><img class="thumbnail img-responsive" src="../static/img/konik01_tumb.jpg"></a>
+                                <div id="img13" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/konik01_land.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img12">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img14">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img14"><img class="thumbnail img-responsive" src="../static/img/konik02_tumb.jpg"></a>
+                                <div id="img14" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/konik02_land.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img13">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img15">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img15"><img class="thumbnail img-responsive" src="../static/img/konik06_tumb.jpg"></a>
+                                <div id="img15" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/konik06_land.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img14">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img16">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img16"><img class="thumbnail img-responsive" src="../static/img/konik04_tumb.jpg"></a>
+                                <div id="img16" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/konik04_land.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img14">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img17">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img17"><img class="thumbnail img-responsive" src="../static/img/konik05_tumb.jpg"></a>
+                                <div id="img17" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/konik05_land.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img16">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img18">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 thumb">
+                                <a href="#img18"><img class="thumbnail img-responsive" src="../static/img/konik07_tumb.jpg"></a>
+                                <div id="img18" class="lightbox">
+                                    <div class="box-img">
+                                        <a class="close" href="#">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </a>
+                                        <a href="#_"><img src="../static/img/konik07_land.jpg"></a>
+                                        <nav>
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#img17">
+                                                        <span class="glyphicon glyphicon-arrow-left"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#img1">
+                                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/doll05.jpg">
-                            <img class="img-responsive" src="../static/img/doll05_tumb.jpg" alt="">
-                        </a>
+                <!-- Pagination -->
+                <div class="row text-center">
+                    <div class="col-lg-12">
+                        <ul class="pagination">
+                            <!-- <li></li> mnozstvi polozek zavisi na poctu stranek - generuji se -->
+                        </ul>
                     </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/doll06.jpg">
-                            <img class="img-responsive" src="../static/img/doll06_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/doll07.jpg">
-                            <img class="img-responsive" src="../static/img/doll07_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/doll08.jpg">
-                            <img class="img-responsive" src="../static/img/doll08_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/fotb01.jpg">
-                            <img class="img-responsive" src="../static/img/fotb01_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/fotb02.jpg">
-                            <img class="img-responsive" src="../static/img/fotb02_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/fred02.jpg">
-                            <img class="img-responsive" src="../static/img/fred02_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/fred03.jpg">
-                            <img class="img-responsive" src="../static/img/fred03_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/fred04.jpg">
-                            <img class="img-responsive" src="../static/img/fred04_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/jake01.jpg">
-                            <img class="img-responsive" src="../static/img/jake01_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/jake02.jpg">
-                            <img class="img-responsive" src="../static/img/jake02_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-xs-4 thumb">
-                        <a class="fancybox-button thumbnail" rel="lightbox" href="../../static/img/laly03.jpg">
-                            <img class="img-responsive" src="../static/img/laly03_tumb.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
+                </div>               
+            </div>            
         </div>
+    </div>
+    <!-- /.container -->
 
-        <hr>
-
-        <!-- Pagination -->
-        <div class="row text-center">
-            <div class="col-lg-12">
-                <ul class="pagination">
-                    <!-- <li></li> mnozstvi polozek zavisi na poctu stranek - generuji se -->
-                </ul>
-            </div>
-        </div>
-
-        <!-- Footer -->
-        <footer>
+    <footer>
+        <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 text-center">
                     <p>Copyright &copy; Your Website 2014</p>
                 </div>
             </div>
-        </footer>
-
-    </div>
-    <!-- /.container -->
+        </div>
+    </footer>
 
     <!-- jQuery -->
     <script src="../static/js/jquery.js"></script>
@@ -201,38 +674,9 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="../static/js/bootstrap.min.js"></script>
 
-    <!-- Fancybox-->
-    <script src="../static/js/jquery.fancybox.js"></script>
-
     <!-- Own scripts -->
     <script src="../static/js/listOfimg.js"></script>
-    <script src="../static/js/loadImage.js"></script>
-
-
-    <!-- FANCYBOX - https://github.com/fancyapps/fancyBox -->
-    <script>
-      $(document).ready(function(){
-        $(".fancybox-button").fancybox({
-          prevEffect: "none",
-          nextEffect: "none",
-          helpers: {
-            title: {type: "inside"},
-            buttons: {},
-            thumbs: {width:50, height: 50}
-          }
-        });
-        $(".various").fancybox({
-          maxWidth: 800,
-          fitToView: false,
-//          width: "70%",
-//          height: "70%",
-          autoSize: false,
-          closeClick: false,
-          openEffect: "none",
-          closeEffect: "none"
-        })
-      });
-    </script>    
+   <!-- <script src="../static/js/loadImage.js"></script> -->
 
 </body>
 </html>
