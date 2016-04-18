@@ -29,10 +29,10 @@ for (i = 0; i < x; i++) {
     prev = i - 1;
     next = i + 1;
     $('#r' + rx + px + '').append(
-        '<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">' +
-            '<a href="#image' + i + '">' +
-                '<img class=" thumbnail img-responsive" src="' + obj.image[i].linkSmall + '">' + 
-            '</a>' +
+        '<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">' +
+                '<a href="#image' + i + '">' +
+                    '<img class="thumbnail img-responsive" src="' + obj.image[i].linkSmall + '">' +
+                '</a>' +
             '<div id="image' + i + '" class="lightbox">' +
                 '<div class="box-img">' +
                     '<a class="close" href="#">' +
