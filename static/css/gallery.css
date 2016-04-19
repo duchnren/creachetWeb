@@ -17,7 +17,6 @@
 	/** Pad the lightbox image */
 	max-width: 100vw;
 	max-height: 80vh;
-
 }
 
 .lightbox:target {
@@ -32,17 +31,24 @@
     margin: 10px 0;
 }
 
-.previous a, .next a {
-    color: #999;
+.close {
+    margin: 10px 0;
+    opacity: 1;
+}
+
+.pager li>a {
+    padding: 0;
+    border: 0;
+    background-color: #fff;
 }
 
 .lightbox .box-img {
     width: -webkit-min-content;
   	width: -moz-min-content;
   	width: max-content;
-	padding: 5px;
+	padding: 5px 14px;
 	background-color:#FFF;
-	box-shadow: 0px 1px 10px -3px #777777; 
+	box-shadow: 0px 1px 10px -3px #777777;
     border-radius: 5px;
     margin: 0;
     position: absolute;
@@ -64,6 +70,6 @@
     }
 
     .lightbox img {
-        max-width: 85vw;
+        max-width: 80vw;
     }
 }

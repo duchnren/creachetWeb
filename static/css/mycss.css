@@ -55,7 +55,18 @@ hr {
 .navbar-nav {
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+
+.navbar-right>li>a {
+    line-height: normal;
+    color: #777;
+    padding: 15px 10px;
+}
+
+.nav>li>a {
+    margin-top: 5px;
 }
 
 .img-full {
@@ -86,7 +97,6 @@ hr {
 .box {
     margin-bottom: 20px;
     padding: 30px 30px;
-    background: #fff;
     background: rgba(255,255,255,0.75);
 }
 
@@ -117,11 +127,21 @@ hr {
 footer {
     background: #fff;
     background: rgba(255,255,255,0.75);
+    min-height: 60px;
 }
 
 footer p {
     margin: 0;
-    padding: 50px 0;
+    padding: 20px 0;
+}
+
+.pagination > li > a {
+    color: #666;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #5e4c4c;
+    border-color: #5e4c4c;
 }
 
 /*.thumbnail {
@@ -132,11 +152,35 @@ footer p {
     margin-bottom: 20px;
 }*/
 
+.lead {
+    margin: 0;
+}
+
+.flag > li {
+    padding: 0;
+}
+
+.fr {
+    display: none;
+}
+
+.french {
+    box-shadow: none;
+}
+
+.cz {
+    display: block;
+}
+
+.czech {
+    box-shadow: 0px 0px 7px 5px rgba(56, 20, 1, 0.6);
+}
+
 @media screen and (min-width:768px) {
     .brand {
         display: inherit;
         margin: 0;
-        padding: 30px 0 10px;
+        padding: 10px 0 5px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         font-family: 'Kalam', cursive;
@@ -168,39 +212,43 @@ footer p {
         color: #fff;
     }
 
-    .navbar {
+   .navbar {
         border-radius: 0;
+        min-height: 60px;
     }
-
-    .navbar-header {
-        display: none;
-    }
-
-    .navbar {
-        min-height: 0;
-    }
-
+    
     .navbar-default {
         border: none;
         background: #fff;
         background: rgba(255,255,255,0.75);
     }
-
-    .nav>li>a {
-        padding: 35px;
+    
+    .navbar-header {
+        display: none;
     }
-
+/*
+    .nav>li>a {
+        padding: 20px;
+    }
+*/
     .navbar-nav>li>a {
         line-height: normal;
     }
-
+    
     .navbar-nav {
         display: table;
-        float: none;
-        margin: 0 auto;
+        float: left;
         table-layout: fixed;
         font-size: 1.25em;
     }
+    
+    .navbar-right {
+        font-size: 1.25em;
+    }
+/*    
+    .navbar-right>li>a {
+        line-height: normal;
+    }*/
 }
 
 @media screen and (min-width:1200px) {

@@ -35,9 +35,11 @@ for (i = 0; i < x; i++) {
                 '</a>' +
             '<div id="image' + i + '" class="lightbox">' +
                 '<div class="box-img">' +
-                    '<a class="close" href="#">' +
-                        '<span class="glyphicon glyphicon-remove"></span>' + 
-                    '</a>' +
+                    '<div class="close">' +
+                        '<a href="#">' +
+                            '<img src="../static/img/ic_close.png">' +
+                        '</a>' +
+                    '</div>' +
                     '<a href="#_">' +
                         '<img src="' + obj.image[i].linkBig + '">' + 
                     '</a>' +
@@ -45,12 +47,12 @@ for (i = 0; i < x; i++) {
                         '<ul class="pager">' +
                             '<li class="previous">' + 
                                 '<a href="#image' + prev + '">' + 
-                                    '<span class="glyphicon glyphicon-arrow-left"></span>' + 
+                                    '<img src="../static/img/ic_prev.png">' + 
                                 '</a>' + 
                             '</li>' +
                             '<li class="next">' + 
                                 '<a href="#image' + next + '">' + 
-                                    '<span class="glyphicon glyphicon-arrow-right"></span>' + 
+                                    '<img src="../static/img/ic_next.png">' + 
                                 '</a>' + 
                             '</li>' + 
                         '</ul>' + 
