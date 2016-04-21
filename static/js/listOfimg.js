@@ -16,9 +16,9 @@ var myGallery = '{"image":[' +
 +
     '{"name":"doll06","linkBig":"../static/img/doll06_port.jpg","linkSmall":"../static/img/doll06_tumb.jpg","type":"portrait"},'
 +
-    '{"name":"doll07","linkBig":"../static/img/doll07_port.jpg","linkSmall":"../static/img/doll07_tumb.jpg","type":"portrait"},'
-+
     '{"name":"doll08","linkBig":"../static/img/doll08_port.jpg","linkSmall":"../static/img/doll08_tumb.jpg","type":"portrait"},'
++
+    '{"name":"doll07","linkBig":"../static/img/doll07_port.jpg","linkSmall":"../static/img/doll07_tumb.jpg","type":"portrait"},'
 +
     '{"name":"fotb01","linkBig":"../static/img/fotb01_port.jpg","linkSmall":"../static/img/fotb01_tumb.jpg","type":"portrait"},'
 +
