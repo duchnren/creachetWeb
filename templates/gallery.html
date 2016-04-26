@@ -43,40 +43,7 @@
     
     <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-               
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Créachet</a>
-                <ul class="nav navbar-nav navbar-right flag rig">
-                    <li><a href="javascript:chooseStyle('none', 60)"><span class="czech">CS</span></a></li>
-                    <li><a href="javascript:chooseStyle('french', 60)"><span class="french">FR</span></a></li>
-                    <li><a href="javascript:chooseStyle('english', 60)"><span class="english">EN</span></a></li>
-                </ul>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html"><span class="cz">Úvod</span><span class="fr">Accueil</span><span class="en">Home</span></a></li>
-                    <li><a href="gallery.html"><span class="cz">Galerie</span><span class="fr">Galerie</span><span class="en">Gallery</span></a></li>
-                    <li><a href="about.html"><span class="cz">O mě</span><span class="fr">A propos de moi</span><span class="en">About</span></a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right flag hid">
-                    <li><a href="javascript:chooseStyle('none', 60)"><span class="czech">CS</span></a></li>
-                    <li><a href="javascript:chooseStyle('french', 60)"><span class="french">FR</span></a></li>
-                    <li><a href="javascript:chooseStyle('english', 60)"><span class="english">EN</span></a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+        <div id="menu" class="container">
         </div>
         <!-- /.container -->
     </nav>
@@ -85,13 +52,12 @@
     <div class="container">
         
         <div class="box">
-            
-            <div class="col-lg-12 text-center">
-                <h1 class="brand-name">
-                    <span class="cz">Galerie</span>
-                    <span class="fr">Galerie</span>
-                    <span class="en">Gallery</span>
-                </h1>
+            <div class="col-lg-12">
+                <h2 class="text-center">
+                    <span class="cz"><strong>GALERIE</strong></span>
+                    <span class="fr"><strong>GALERIE</strong></span>
+                    <span class="en"><strong>GALLERY</strong></span>
+                </h2>
                 <hr>
             </div>
             
@@ -627,6 +593,12 @@
     
     <!-- StyleSheet Switcher v1.1 Dinamic Drive DHTML (www.dynamicdrive.com) -->
     <script src="../static/js/styleswitch.js" type="text/javascript"></script>
+    
+    <script>
+    $(function() {
+        $('#menu').load('navbar.html');
+    })
+    </script>
 
 </body>
 </html>
