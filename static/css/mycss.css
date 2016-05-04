@@ -16,15 +16,11 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;*/
-}
+    background-size: cover;
+}*/
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
     text-transform: uppercase;
     font-family: 'Kalam', cursive;
     font-weight: 700;
@@ -227,6 +223,13 @@ footer p {
     height: 100%;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+.btn {
+    margin-top: 10px;
+}
 
 @media screen and (min-width:768px) {
     .brand {

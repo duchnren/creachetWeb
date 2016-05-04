@@ -22,6 +22,7 @@ for (j = 0; j < pag; j++) {
     }
 }
 
+
 for (i = 0; i < x; i++) {
     // kam obrazek patri - px stranka, rx radek
     px = Math.floor(i/img_page);
