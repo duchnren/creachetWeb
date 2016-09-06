@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Kalam', cursive;
-    color: #114511;
+    color: #0a3409;
     background: none;
     background-image: url('../img/bg.png');
 }
@@ -26,12 +26,12 @@ h2 {
     font-weight: 700;
     letter-spacing: 1px;
     padding-top: 5px;
-    color: #114511;
+    color: #0a3409;
 }
 
 p {
     font-size: 1.5em;
-    color: #114511;
+    color: #0a3409;
     margin: 0;
     padding: 0;
 }
@@ -45,8 +45,12 @@ footer p {
 }
 
 .soc {
-    padding-top: 30px;
-    text-align: right;
+    text-align: center;
+}
+
+.soc1 {
+    text-align: center;
+    padding-top: 10px;
 }
 
 .info {
@@ -54,14 +58,18 @@ footer p {
     padding-bottom: 10px;
 }
 
+h3 {
+    padding: 0;
+    margin: 0px 0 10px 0;
+}
+
 h4 {
     font-family: 'Kalam', cursive;
     font-size: 18px;
     font-weight: 600;
     padding-top: 5px;
-    color: #114511;
+    color: #0a3409;
     text-transform: uppercase;
-    
 }
 
 .text-blog {
@@ -72,6 +80,19 @@ hr {
     border-color: #777777;
 /*    margin-bottom: 10px;
     margin-top: 10px;*/
+}
+
+.nov {
+    font-size: 18px;
+}
+
+.cas {
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.novinky {
+    margin-top: 0px;
 }
 
 .brand,
@@ -97,7 +118,7 @@ hr {
 
 .navbar-right>li>a {
     line-height: normal;
-    color: #114511;
+    color: #0a3409;
     padding: 15px 10px;
 }
 
@@ -109,10 +130,64 @@ hr {
     min-width: 100%;
 }
 
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.cz.btn_col {
+    color: #fff;
+    margin-top: 15px;
+}
+
+.fr.btn_col {
+    color: #fff;
+    margin-top: 15px;
+}
+
+.en.btn_col {
+    color: #fff;
+    margin-top: 15px;
+}
+
+.nav-tabs>li>a{
+    background-color: #5cb85c;
+}
+
+.gal_doll {
+    margin-top: 20px;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li>a:hover,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:focus,
+.nav-tabs>li.active>a:focus {
+    background-color: #398439;
+
+}
+
+.nav-tabs>li {
+    padding: 0;
+}
+
+.pop {
+    color: #fff;
+    font-size: 18px;
+}
+
+.button.btn {
+    padding-top: 15px;
+}
+
+.modal-body {
+    max-width: 100vw;
+/*	max-height: 70vh;*/
+}
+
 .brand-before,
 .brand-name {
     text-transform: capitalize;
-    color: #114511;
+    color: #0a3409;
 }
 
 .brand-before {
@@ -176,8 +251,8 @@ footer p {
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
-    background-color: #114511;
-    border-color: #114511;
+    background-color: #0a3409;
+    border-color: #0a3409;
 }
 
 /*.thumbnail {
@@ -211,7 +286,7 @@ footer p {
 
 .cz {
     display: block;
-    color: #114511;
+    color: #0a3409;
 }
 
 .czech {
@@ -273,7 +348,7 @@ a:link {
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
-        color: #114511;
+        color: #0a3409;
     }
 
     .top-divider {
@@ -295,7 +370,7 @@ a:link {
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #114511;
+        color: #0a3409;
     }
 
    .navbar {
@@ -307,7 +382,7 @@ a:link {
         border: none;
         background: #fff;
         background: rgba(255,255,255,0.8);
-        color: #114511;
+        color: #0a3409;
     }
     
     .navbar-header {
@@ -336,7 +411,7 @@ a:link {
     }
     
     .navbar-default .navbar-nav>li>a {
-        color: #114511;
+        color: #0a3409;
     }
     
 /*    
@@ -371,5 +446,24 @@ a:link {
         float: right;
     }
 
+}
+
+@media (max-width:320px) {
+    .nov {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:320px) and (max-width:1210px) {
+    .nov {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:500px) {
+    button.btn {
+        font-size: 12px;
+        padding: 5px;
+    }
 }
 

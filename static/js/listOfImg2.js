@@ -1,24 +1,23 @@
-var doll = '{"image":[' +
-      
-    '{"gal":"doll","nameCZ":"Panenka Růženka","nameFR":"Poupée Rose","nameEN":"Dolly Rose","linkBig":"../static/img/doll01_port.jpg","linkSmall":"../static/img/doll01_tumb.jpg","type":"portrait"},'
+var doll_bezdrat = '{"image":[' +
+    '{"gal":"doll","nameCZ":"Růženka","nameFR":"Rose","nameEN":"Rose","linkBig":"../static/img/doll01_port.jpg","linkSmall":"../static/img/doll01_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"doll","nameCZ":"Panenka Růženka","nameFR":"Poupée Rose","nameEN":"Dolly Rose","linkBig":"../static/img/doll02_port.jpg","linkSmall":"../static/img/doll02_tumb.jpg","type":"portrait"},'
+    '{"gal":"doll","nameCZ":"Růženka","nameFR":"Rose","nameEN":"Rose","linkBig":"../static/img/doll02_port.jpg","linkSmall":"../static/img/doll02_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"doll","nameCZ":"Panenka Růženka","nameFR":"Poupée Rose","nameEN":"Dolly Rose","linkBig":"../static/img/doll03_port.jpg","linkSmall":"../static/img/doll03_tumb.jpg","type":"portrait"},'
+    '{"gal":"doll","nameCZ":"Růženka","nameFR":"Rose","nameEN":"Rose","linkBig":"../static/img/doll03_port.jpg","linkSmall":"../static/img/doll03_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"doll","nameCZ":"Panenka Růženka","nameFR":"Poupée Rose","nameEN":"Dolly Rose","linkBig":"../static/img/doll041_port.jpg","linkSmall":"../static/img/doll041_tumb.jpg","type":"portrait"},'
+    '{"gal":"doll","nameCZ":"Růženka","nameFR":"Rose","nameEN":"Rose","linkBig":"../static/img/doll041_port.jpg","linkSmall":"../static/img/doll041_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"doll","nameCZ":"Panenka Růženka","nameFR":"Poupée Rose","nameEN":"Dolly Rose","linkBig":"../static/img/doll04_port.jpg","linkSmall":"../static/img/doll04_tumb.jpg","type":"portrait"},'
+    '{"gal":"doll","nameCZ":"Růženka","nameFR":"Rose","nameEN":"Rose","linkBig":"../static/img/doll04_port.jpg","linkSmall":"../static/img/doll04_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"doll","nameCZ":"Panenka Růženka","nameFR":"Poupée Rose","nameEN":"Dolly Rose","linkBig":"../static/img/doll051_port.jpg","linkSmall":"../static/img/doll051_tumb.jpg","type":"portrait"},'
+    '{"gal":"doll","nameCZ":"Růženka","nameFR":"Rose","nameEN":"Rose","linkBig":"../static/img/doll051_port.jpg","linkSmall":"../static/img/doll051_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"doll","nameCZ":"Panenka Růženka","nameFR":"Poupée Rose","nameEN":"Dolly Rose","linkBig":"../static/img/doll05_port.jpg","linkSmall":"../static/img/doll05_tumb.jpg","type":"portrait"},'
+    '{"gal":"doll","nameCZ":"Růženka","nameFR":"Rose","nameEN":"Rose","linkBig":"../static/img/doll05_port.jpg","linkSmall":"../static/img/doll05_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"doll","nameCZ":"Panenka Růženka","nameFR":"Poupée Rose","nameEN":"Dolly Rose","linkBig":"../static/img/doll06_port.jpg","linkSmall":"../static/img/doll06_tumb.jpg","type":"portrait"},'
+    '{"gal":"doll","nameCZ":"Růženka","nameFR":"Rose","nameEN":"Rose","linkBig":"../static/img/doll06_port.jpg","linkSmall":"../static/img/doll06_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"doll","nameCZ":"Panenka Růženka","nameFR":"Poupée Rose","nameEN":"Dolly Rose","linkBig":"../static/img/doll08_port.jpg","linkSmall":"../static/img/doll08_tumb.jpg","type":"portrait"},'
+    '{"gal":"doll","nameCZ":"Josefínka","nameFR":"Josephine","nameEN":"Josephine","linkBig":"../static/img/doll08_port.jpg","linkSmall":"../static/img/doll08_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"doll","nameCZ":"Panenka Růženka","nameFR":"Poupée Rose","nameEN":"Dolly Rose","linkBig":"../static/img/doll07_port.jpg","linkSmall":"../static/img/doll07_tumb.jpg","type":"portrait"},'
+    '{"gal":"doll","nameCZ":"Josefínka","nameFR":"Josephine","nameEN":"Josephine","linkBig":"../static/img/doll07_port.jpg","linkSmall":"../static/img/doll07_tumb.jpg","type":"portrait"},'
 +
     '{"gal":"doll","nameCZ":"Malý fotbalista","nameFR":"Petit footbaleur","nameEN":"Little footballer","linkBig":"../static/img/fotb01_port.jpg","linkSmall":"../static/img/fotb01_tumb.jpg","type":"portrait"},'
 +
@@ -28,7 +27,51 @@ var doll = '{"image":[' +
 +
     '{"gal":"doll","nameCZ":"Lalylala Loni","nameFR":"Lalylala Loni","nameEN":"Lalylala Loni","linkBig":"../static/img/laly02_port.jpg","linkSmall":"../static/img/laly02_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"doll","nameCZ":"Lalylala Loni","nameFR":"Lalylala Loni","nameEN":"Lalylala Loni","linkBig":"../static/img/laly01_port.jpg","linkSmall":"../static/img/laly01_tumb.jpg","type":"portrait"}]}';
+    '{"gal":"doll","nameCZ":"Lalylala Loni","nameFR":"Lalylala Loni","nameEN":"Lalylala Loni","linkBig":"../static/img/laly01_port.jpg","linkSmall":"../static/img/laly01_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"doll","nameCZ":"Ludvík","nameFR":"Loïc","nameEN":"Louis","linkBig":"../static/img/loic01_port.jpg","linkSmall":"../static/img/loic01_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"doll","nameCZ":"Ludvík","nameFR":"Loïc","nameEN":"Louis","linkBig":"../static/img/loic02_port.jpg","linkSmall":"../static/img/loic01_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"doll","nameCZ":"Ludvík","nameFR":"Loïc","nameEN":"Louis","linkBig":"../static/img/loic03_port.jpg","linkSmall":"../static/img/loic01_tumb.jpg","type":"portrait"}]}';
+
+var doll_drat = '{"image":[' +
+
+    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred02_port.jpg","linkSmall":"../static/img/fred02_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred03_port.jpg","linkSmall":"../static/img/fred03_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred04_port.jpg","linkSmall":"../static/img/fred04_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred05_port.jpg","linkSmall":"../static/img/fred05_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred06_port.jpg","linkSmall":"../static/img/fred06_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"gal_fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred07_port.jpg","linkSmall":"../static/img/fred07_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"dud","nameCZ":"Bartoloměj Dudák","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/bard01_port.jpg","linkSmall":"../static/img/bard01_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"dud","nameCZ":"Bartoloměj Dudák","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/bard02_port.jpg","linkSmall":"../static/img/bard02_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"dud","nameCZ":"Bartoloměj Dudák","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/bard03_port.jpg","linkSmall":"../static/img/bard03_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"dud","nameCZ":"Bartoloměj Dudák","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/bard04_port.jpg","linkSmall":"../static/img/bard04_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"dud","nameCZ":"Bartoloměj Dudák","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/bard05_port.jpg","linkSmall":"../static/img/bard05_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"dud","nameCZ":"Bartoloměj Dudák","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/bard06_port.jpg","linkSmall":"../static/img/bard06_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin01_port.JPG","linkSmall":"../static/img/martin01_tumb.JPG","type":"portrait"},'
++
+    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin02_port.JPG","linkSmall":"../static/img/martin02_tumb.JPG","type":"portrait"},'
++
+    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin03_port.JPG","linkSmall":"../static/img/martin03_tumb.JPG","type":"portrait"},'
++
+    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin04_port.JPG","linkSmall":"../static/img/martin04_tumb.JPG","type":"portrait"},'
++
+    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin05_port.JPG","linkSmall":"../static/img/martin05_tumb.JPG","type":"portrait"},'
++
+    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin06_port.JPG","linkSmall":"../static/img/martin06_tumb.JPG","type":"portrait"}]}';
 
     
 var animal = '{"image":[' +
@@ -45,13 +88,13 @@ var animal = '{"image":[' +
 +
     '{"gal":"animal","nameCZ":"Oslík z fialek","nameFR":"Petit âne de violettes","nameEN":"Donkey of violets","linkBig":"../static/img/konik07_land.jpg","linkSmall":"../static/img/konik07_tumb.jpg","type":"landscape"},'
 +   
-    '{"gal":"animal","nameCZ":"Ježek Ježo","nameFR":"\'Hérisson Jezo","nameEN":"Hedgehog Jezo","linkBig":"../static/img/jezo01_land.jpg","linkSmall":"../static/img/jezo01_tumb.jpg","type":"landscape"},'
+    '{"gal":"animal","nameCZ":"Ježek Ježo","nameFR":"Jezo le hérisson","nameEN":"Hedgehog Jezo","linkBig":"../static/img/jezo01_land.jpg","linkSmall":"../static/img/jezo01_tumb.jpg","type":"landscape"},'
 +
-    '{"gal":"animal","nameCZ":"Ježek Ježo","nameFR":"\'Hérisson Jezo","nameEN":"Hedgehog Jezo","linkBig":"../static/img/jezo02_land.jpg","linkSmall":"../static/img/jezo02_tumb.jpg","type":"landscape"},'
+    '{"gal":"animal","nameCZ":"Ježek Ježo","nameFR":"Jezo le hérisson","nameEN":"Hedgehog Jezo","linkBig":"../static/img/jezo02_land.jpg","linkSmall":"../static/img/jezo02_tumb.jpg","type":"landscape"},'
 +
-    '{"gal":"animal","nameCZ":"Divoké selátko Joseph","nameFR":"Petit cochon sauvage Joseph","nameEN":"Wild piglet Joseph","linkBig":"../static/img/jo01_land.jpg","linkSmall":"../static/img/jo01_tumb.jpg","type":"landscape"},'
+    '{"gal":"animal","nameCZ":"Divoké selátko Joseph","nameFR":"Joseph le marcassin","nameEN":"Wild piglet Joseph","linkBig":"../static/img/jo01_land.jpg","linkSmall":"../static/img/jo01_tumb.jpg","type":"landscape"},'
 +
-    '{"gal":"animal","nameCZ":"Divoké selátko Joseph","nameFR":"Petit cochon sauvage Joseph","nameEN":"Wild piglet Joseph","linkBig":"../static/img/jo02_land.jpg","linkSmall":"../static/img/jo02_tumb.jpg","type":"landscape"},'
+    '{"gal":"animal","nameCZ":"Divoké selátko Joseph","nameFR":"Joseph le marcassin","nameEN":"Wild piglet Joseph","linkBig":"../static/img/jo02_land.jpg","linkSmall":"../static/img/jo02_tumb.jpg","type":"landscape"},'
 +
     '{"gal":"animal","nameCZ":"Růžový šnek","nameFR":"Escargot rose","nameEN":"Pink snail","linkBig":"../static/img/snek01_land.jpg","linkSmall":"../static/img/snek01_tumb.jpg","type":"landscape"},'
 +
@@ -79,11 +122,13 @@ var animal = '{"image":[' +
 +
     '{"gal":"animal","nameCZ":"Ptáček","nameFR":"Petit oiseau","nameEN":"Little bird","linkBig":"../static/img/ptak01_port.jpg","linkSmall":"../static/img/ptak01_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"animal","nameCZ":"Šnečí rodina","nameFR":"Famille d\'escargot","nameEN":"Snail family","linkBig":"../static/img/snek03_land.jpg","linkSmall":"../static/img/snek03_tumb.jpg","type":"landscape"},'
+    '{"gal":"animal","nameCZ":"Žirafa","nameFR":"Girafe","nameEN":"Giraffe","linkBig":"../static/img/zirafa_port.jpg","linkSmall":"../static/img/zirafa_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"animal","nameCZ":"Šnečí rodina","nameFR":"Famille d\'escargot","nameEN":"Snail family","linkBig":"../static/img/snek05_land.jpg","linkSmall":"../static/img/snek05_tumb.jpg","type":"landscape"},'
+    '{"gal":"animal","nameCZ":"Šnečí rodina","nameFR":"Famille d\'escargots","nameEN":"Snail family","linkBig":"../static/img/snek03_land.jpg","linkSmall":"../static/img/snek03_tumb.jpg","type":"landscape"},'
 +
-    '{"gal":"animal","nameCZ":"Šnečí rodina","nameFR":"Famille d\'escargot","nameEN":"Snail family","linkBig":"../static/img/snek06_land.jpg","linkSmall":"../static/img/snek06_tumb.jpg","type":"landscape"},'
+    '{"gal":"animal","nameCZ":"Šnečí rodina","nameFR":"Famille d\'escargots","nameEN":"Snail family","linkBig":"../static/img/snek05_land.jpg","linkSmall":"../static/img/snek05_tumb.jpg","type":"landscape"},'
++
+    '{"gal":"animal","nameCZ":"Šnečí rodina","nameFR":"Famille d\'escargots","nameEN":"Snail family","linkBig":"../static/img/snek06_land.jpg","linkSmall":"../static/img/snek06_tumb.jpg","type":"landscape"},'
 +
     '{"gal":"animal","nameCZ":"Fialový šnek","nameFR":"Escargot violet","nameEN":"Violet snail","linkBig":"../static/img/snek07_land.jpg","linkSmall":"../static/img/snek07_tumb.jpg","type":"landscape"},'
 +
@@ -116,27 +161,18 @@ var tv = '{"image":[' +
 +
     '{"gal":"tv","nameCZ":"Pat a Mat","nameFR":"Pat et Mat","nameEN":"Pat & Mat","linkBig":"../static/img/pat04_port.jpg","linkSmall":"../static/img/pat04_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"tv","nameCZ":"Mistr Yoda (Hvězdné války)","nameFR":"Yoda, le maître Jedi (Star Wars)","nameEN":"Grand Jedi Master Yoda (Star Wars)","linkBig":"../static/img/yoda01_port.jpg","linkSmall":"../static/img/yoda01_tumb.jpg","type":"portrait"},'
+    '{"gal":"tv","nameCZ":"Mistr Yoda (Hvězdné války)","nameFR":"Yoda, Maître Jedi (Star Wars)","nameEN":"Grand Jedi Master Yoda (Star Wars)","linkBig":"../static/img/yoda01_port.jpg","linkSmall":"../static/img/yoda01_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"tv","nameCZ":"Mistr Yoda (Hvězdné války)","nameFR":"Yoda, le maître Jedi (Star Wars)","nameEN":"Grand Jedi Master Yoda (Star Wars)","linkBig":"../static/img/yoda02_port.jpg","linkSmall":"../static/img/yoda02_tumb.jpg","type":"portrait"},'
+    '{"gal":"tv","nameCZ":"Mistr Yoda (Hvězdné války)","nameFR":"Yoda, Maître Jedi (Star Wars)","nameEN":"Grand Jedi Master Yoda (Star Wars)","linkBig":"../static/img/yoda02_port.jpg","linkSmall":"../static/img/yoda02_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"tv","nameCZ":"Mistr Yoda (Hvězdné války)","nameFR":"Yoda, le maître Jedi (Star Wars)","nameEN":"Grand Jedi Master Yoda (Star Wars)","linkBig":"../static/img/yoda03_port.jpg","linkSmall":"../static/img/yoda03_tumb.jpg","type":"portrait"},'
+    '{"gal":"tv","nameCZ":"Mistr Yoda (Hvězdné války)","nameFR":"Yoda, Maître Jedi (Star Wars)","nameEN":"Grand Jedi Master Yoda (Star Wars)","linkBig":"../static/img/yoda03_port.jpg","linkSmall":"../static/img/yoda03_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"tv","nameCZ":"Mistr Yoda (Hvězdné války)","nameFR":"Yoda, le maître Jedi (Star Wars)","nameEN":"Grand Jedi Master Yoda (Star Wars)","linkBig":"../static/img/yoda04_port.jpg","linkSmall":"../static/img/yoda04_tumb.jpg","type":"portrait"},'
+    '{"gal":"tv","nameCZ":"Mistr Yoda (Hvězdné války)","nameFR":"Yoda, Maître Jedi (Star Wars)","nameEN":"Grand Jedi Master Yoda (Star Wars)","linkBig":"../static/img/yoda04_port.jpg","linkSmall":"../static/img/yoda04_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"tv","nameCZ":"Mistr Yoda (Hvězdné války)","nameFR":"Yoda, le maître Jedi (Star Wars)","nameEN":"Grand Jedi Master Yoda (Star Wars)","linkBig":"../static/img/yoda05_port.jpg","linkSmall":"../static/img/yoda05_tumb.jpg","type":"portrait"},'
+    '{"gal":"tv","nameCZ":"Mistr Yoda (Hvězdné války)","nameFR":"Yoda, Maître Jedi (Star Wars)","nameEN":"Grand Jedi Master Yoda (Star Wars)","linkBig":"../static/img/yoda05_port.jpg","linkSmall":"../static/img/yoda05_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"tv","nameCZ":"Mistr Yoda (Hvězdné války)","nameFR":"Yoda, le maître Jedi (Star Wars)","nameEN":"Grand Jedi Master Yoda (Star Wars)","linkBig":"../static/img/yoda06_port.jpg","linkSmall":"../static/img/yoda06_tumb.jpg","type":"portrait"},'
+    '{"gal":"tv","nameCZ":"Mistr Yoda (Hvězdné války)","nameFR":"Yoda, Maître Jedi (Star Wars)","nameEN":"Grand Jedi Master Yoda (Star Wars)","linkBig":"../static/img/yoda06_port.jpg","linkSmall":"../static/img/yoda06_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"tv","nameCZ":"Mistr Yoda a Darth Vader (Hvězdné války)","nameFR":"Yoda, le maître Jedi et Dark Vader (Star Wars)","nameEN":"Grand Jedi Master Yoda and Darth Vader (Star Wars)","linkBig":"../static/img/yoda_darth01_port.jpg","linkSmall":"../static/img/yoda_darth01_tumb.jpg","type":"portrait"},'
+    '{"gal":"tv","nameCZ":"Mistr Yoda a Darth Vader (Hvězdné války)","nameFR":"Yoda, Maître Jedi, et Dark Vador (Star Wars)","nameEN":"Grand Jedi Master Yoda and Darth Vader (Star Wars)","linkBig":"../static/img/yoda_darth01_port.jpg","linkSmall":"../static/img/yoda_darth01_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"tv","nameCZ":"Darth Vader (Hvězdné války)","nameFR":"Dark Vader (Star Wars)","nameEN":"Darth Vader (Star Wars)","linkBig":"../static/img/yoda_darth02_port.jpg","linkSmall":"../static/img/yoda_darth02_tumb.jpg","type":"portrait"}]}';
-
-
-var tale = '{"image":[' +
-    
-    '{"gal":"tale","nameCZ":"Objevitel Bedřich","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/fred02_port.jpg","linkSmall":"../static/img/fred02_tumb.jpg","type":"portrait"},'
-+
-    '{"gal":"tale","nameCZ":"Objevitel Bedřich","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/fred03_port.jpg","linkSmall":"../static/img/fred03_tumb.jpg","type":"portrait"},'
-+
-    '{"gal":"tale","nameCZ":"Objevitel Bedřich","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/fred04_port.jpg","linkSmall":"../static/img/fred04_tumb.jpg","type":"portrait"}]}';
+    '{"gal":"tv","nameCZ":"Darth Vader (Hvězdné války)","nameFR":"Dark Vador (Star Wars)","nameEN":"Darth Vader (Star Wars)","linkBig":"../static/img/yoda_darth02_port.jpg","linkSmall":"../static/img/yoda_darth02_tumb.jpg","type":"portrait"}]}';
