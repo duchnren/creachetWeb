@@ -170,9 +170,27 @@ hr {
     padding: 0;
 }
 
-.pop {
+.cz.pop {
     color: #fff;
     font-size: 18px;
+}
+
+.fr.pop {
+    color: #fff;
+    font-size: 18px;
+}
+
+.en.pop {
+    color: #fff;
+    font-size: 18px;
+}
+
+.text_uvod {
+        font-size: 15px;
+}
+
+.pop_uvod {
+        font-size: 16px;
 }
 
 .button.btn {
@@ -195,7 +213,7 @@ hr {
 }
 
 .brand-name {
-    margin: 0;
+    margin-top: 15px;
     font-size: 4em;
 }
 
@@ -263,17 +281,35 @@ footer p {
     margin-bottom: 20px;
 }*/
 
+.btn-lg.odkaz {
+    padding: 4px 5px;
+    font-size: 15px;
+}
+
+.fr.odkaz {
+    color: #fff;
+}
+
+.cz.odkaz {
+    color: #fff;
+}
+
+.en.odkaz {
+    color: #fff;
+}
 
 .flag > li {
     padding: 0;
 }
 
 .fr {
-    display: none;
+    display: block;
+    color: #0a3409;
 }
 
 .french {
-    text-shadow: none;
+    color: #999;
+    text-shadow: 1px 1px 2px black, 0 0 25px #777, 0 0 5px #777;
 }
 
 .en {
@@ -282,16 +318,16 @@ footer p {
 
 .english {
     text-shadow: none;
-}
-
-.cz {
-    display: block;
     color: #0a3409;
 }
 
+.cz {
+    display: none;
+}
+
 .czech {
-    color: #999;
-    text-shadow: 1px 1px 2px black, 0 0 25px #777, 0 0 5px #777;
+    text-shadow: none;
+    color: #0a3409;
 }
 
 .dis {
@@ -445,7 +481,6 @@ a:link {
     .rig {
         float: right;
     }
-
 }
 
 @media (max-width:320px) {
@@ -467,3 +502,24 @@ a:link {
     }
 }
 
+@media (max-width:991px) {
+    .box-hide {
+        display: none;
+    }
+}
+
+@media (max-width:1200px) {
+    .obr img {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width:800px) and (max-width:992px) {
+    .obr img {
+        display: none;
+    }
+    
+    .text_uvod {
+        font-size: 15px;
+    }
+}

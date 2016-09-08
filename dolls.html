@@ -20,7 +20,6 @@
     <link rel="stylesheet" type="text/css" href="/static/css/mycss.css">
     <link rel="alternate stylesheet" type="text/css" media="screen" title="french" href="/static/css/french.css">
     <link rel="alternate stylesheet" type="text/css" media="screen" title="english" href="/static/css/english.css">
-    <link href="/static/css/gallery.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Kalam:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -68,16 +67,16 @@
                       <ul class="nav nav-tabs" role="tablist">
                         <li role="presentation" class="active col-lg-6 col-md-6 col-sm-6 col-xs-6">
                             <a href="#drat" aria-controls="drat" role="tab" data-toggle="tab">
-                                <span class="cz pop">S drátkem</span>
-                                <span class="fr pop">Avec du fil métallique</span>
-                                <span class="en pop">With a wire</span>
+                                <span class="cz pop">Ohýbatelné</span>
+                                <span class="fr pop">Pliable</span>
+                                <span class="en pop">Bendable</span>
                             </a>
                         </li>
                         <li role="presentation" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                             <a href="#bezdrat" aria-controls="bezdrat" role="tab" data-toggle="tab">
-                                <span class="cz pop">Bez drátku</span>
-                                <span class="fr pop">Sans fil métallique</span>
-                                <span class="en pop">No wire</span>
+                                <span class="cz pop">Jednoduché</span>
+                                <span class="fr pop">Simples</span>
+                                <span class="en pop">Simple</span>
                             </a>
                         </li>
                       </ul>
@@ -116,7 +115,9 @@
 
     <!-- Own scripts -->
     <script src="/static/js/listOfImg2.js"></script>
-    <script src="static/js/doll.js"></script>
+    <script src="static/js/doll_bezdrat.js"></script>
+    <script src="static/js/doll_drat.js"></script>
+    
 
     <!-- StyleSheet Switcher v1.1 Dinamic Drive DHTML (www.dynamicdrive.com) -->
     <script src="/static/js/styleswitch.js" type="text/javascript"></script>
@@ -131,12 +132,20 @@
         $(this).ekkoLightbox();
     });
     </script>
+    
+    <script>
+    var url = document.location.toString();
+    if (url.match('#')) {
+        $('.nav-tabs a[href=#'+url.split('#')[1]+']').tab('show') ;
+    } 
+    </script>
 
     <script>
     $(function() {
         $('#menu').load('navbar.html');
     })
     </script>
+    
 
     <!-- Google Analytics -->
     <script>

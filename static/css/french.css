@@ -1,27 +1,27 @@
-.cz {
-    display: none;
-}
-
-.fr {
-    display: block;
-    color: #0a3409;
-}
-
 .en {
     display: none;
 }
 
-.french {
-    color: #999;
-    text-shadow: 1px 1px 2px black, 0 0 25px #777, 0 0 5px #777;
-}
-
-.czech {
+.english {
     text-shadow: none;
     color: #0a3409;
 }
 
-.english {
+.cz {
+    display: block;
+    color: #0a3409;
+}
+
+.czech {
+    color: #999;
+    text-shadow: 1px 1px 2px black, 0 0 25px #777, 0 0 5px #777;
+}
+
+.fr {
+    display: none;
+}
+
+.french {
     text-shadow: none;
     color: #0a3409;
 }

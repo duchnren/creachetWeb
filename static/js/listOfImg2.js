@@ -31,23 +31,42 @@ var doll_bezdrat = '{"image":[' +
 +
     '{"gal":"doll","nameCZ":"Ludvík","nameFR":"Loïc","nameEN":"Louis","linkBig":"../static/img/loic01_port.jpg","linkSmall":"../static/img/loic01_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"doll","nameCZ":"Ludvík","nameFR":"Loïc","nameEN":"Louis","linkBig":"../static/img/loic02_port.jpg","linkSmall":"../static/img/loic01_tumb.jpg","type":"portrait"},'
+    '{"gal":"doll","nameCZ":"Ludvík","nameFR":"Loïc","nameEN":"Louis","linkBig":"../static/img/loic02_port.jpg","linkSmall":"../static/img/loic02_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"doll","nameCZ":"Ludvík","nameFR":"Loïc","nameEN":"Louis","linkBig":"../static/img/loic03_port.jpg","linkSmall":"../static/img/loic01_tumb.jpg","type":"portrait"}]}';
+    '{"gal":"doll","nameCZ":"Ludvík","nameFR":"Loïc","nameEN":"Louis","linkBig":"../static/img/loic03_port.jpg","linkSmall":"../static/img/loic03_tumb.jpg","type":"portrait"}]}';
 
 var doll_drat = '{"image":[' +
-
-    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred02_port.jpg","linkSmall":"../static/img/fred02_tumb.jpg","type":"portrait"},'
+    '{"gal":"fred","nameCZ":"Heidi","nameFR":"Heidi","nameEN":"Heidi","linkBig":"../static/img/heidi07_port.JPG","linkSmall":"../static/img/heidi07_tumb.JPG","type":"portrait"},'
 +
-    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred03_port.jpg","linkSmall":"../static/img/fred03_tumb.jpg","type":"portrait"},'
+    '{"gal":"fred","nameCZ":"Peterove","nameFR":"Deux garçons Peter","nameEN":"Two boys Peter","linkBig":"../static/img/heidi08_port.JPG","linkSmall":"../static/img/heidi08_tumb.JPG","type":"portrait"},'
 +
-    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred04_port.jpg","linkSmall":"../static/img/fred04_tumb.jpg","type":"portrait"},'
+    '{"gal":"fred","nameCZ":"Heidi","nameFR":"Heidi","nameEN":"Heidi","linkBig":"../static/img/heidi06_port.JPG","linkSmall":"../static/img/heidi06_tumb.JPG","type":"portrait"},'
 +
-    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred05_port.jpg","linkSmall":"../static/img/fred05_tumb.jpg","type":"portrait"},'
+    '{"gal":"fred","nameCZ":"Heidi","nameFR":"Heidi","nameEN":"Heidi","linkBig":"../static/img/heidi04_port.JPG","linkSmall":"../static/img/heidi04_tumb.JPG","type":"portrait"},'
 +
-    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred06_port.jpg","linkSmall":"../static/img/fred06_tumb.jpg","type":"portrait"},'
+    '{"gal":"fred","nameCZ":"Heidi a Peter","nameFR":"Heidi et Peter","nameEN":"Heidi and Peter","linkBig":"../static/img/heidi05_port.JPG","linkSmall":"../static/img/heidi05_tumb.JPG","type":"portrait"},'
 +
-    '{"gal":"gal_fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred07_port.jpg","linkSmall":"../static/img/fred07_tumb.jpg","type":"portrait"},'
+    '{"gal":"fred","nameCZ":"Heidi","nameFR":"Heidi","nameEN":"Heidi","linkBig":"../static/img/heidi10_port.jpg","linkSmall":"../static/img/heidi10_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"fred","nameCZ":"Heidi","nameFR":"Heidi","nameEN":"Heidi","linkBig":"../static/img/heidi09_port.jpg","linkSmall":"../static/img/heidi09_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"fred","nameCZ":"Peter","nameFR":"Peter","nameEN":"Peter","linkBig":"../static/img/heidi03_port.JPG","linkSmall":"../static/img/heidi03_tumb.JPG","type":"portrait"},'
++
+    '{"gal":"fred","nameCZ":"Heidi","nameFR":"Heidi","nameEN":"Heidi","linkBig":"../static/img/heidi01_port.JPG","linkSmall":"../static/img/heidi01_tumb.JPG","type":"portrait"},'
++
+    '{"gal":"fred","nameCZ":"Heidi","nameFR":"Heidi","nameEN":"Heidi","linkBig":"../static/img/heidi02_port.JPG","linkSmall":"../static/img/heidi02_tumb.JPG","type":"portrait"},'
++
+    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin01_port.JPG","linkSmall":"../static/img/martin01_tumb.JPG","type":"portrait"},'
++
+    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin02_port.JPG","linkSmall":"../static/img/martin02_tumb.JPG","type":"portrait"},'
++
+    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin03_port.JPG","linkSmall":"../static/img/martin03_tumb.JPG","type":"portrait"},'
++
+    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin04_port.JPG","linkSmall":"../static/img/martin04_tumb.JPG","type":"portrait"},'
++
+    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin05_port.JPG","linkSmall":"../static/img/martin05_tumb.JPG","type":"portrait"},'
++
+    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin06_port.JPG","linkSmall":"../static/img/martin06_tumb.JPG","type":"portrait"},'
 +
     '{"gal":"dud","nameCZ":"Bartoloměj Dudák","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/bard01_port.jpg","linkSmall":"../static/img/bard01_tumb.jpg","type":"portrait"},'
 +
@@ -61,17 +80,17 @@ var doll_drat = '{"image":[' +
 +
     '{"gal":"dud","nameCZ":"Bartoloměj Dudák","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/bard06_port.jpg","linkSmall":"../static/img/bard06_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin01_port.JPG","linkSmall":"../static/img/martin01_tumb.JPG","type":"portrait"},'
+    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred02_port.jpg","linkSmall":"../static/img/fred02_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin02_port.JPG","linkSmall":"../static/img/martin02_tumb.JPG","type":"portrait"},'
+    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred03_port.jpg","linkSmall":"../static/img/fred03_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin03_port.JPG","linkSmall":"../static/img/martin03_tumb.JPG","type":"portrait"},'
+    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred04_port.jpg","linkSmall":"../static/img/fred04_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin04_port.JPG","linkSmall":"../static/img/martin04_tumb.JPG","type":"portrait"},'
+    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred05_port.jpg","linkSmall":"../static/img/fred05_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin05_port.JPG","linkSmall":"../static/img/martin05_tumb.JPG","type":"portrait"},'
+    '{"gal":"fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred06_port.jpg","linkSmall":"../static/img/fred06_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin06_port.JPG","linkSmall":"../static/img/martin06_tumb.JPG","type":"portrait"}]}';
+    '{"gal":"gal_fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred07_port.jpg","linkSmall":"../static/img/fred07_tumb.jpg","type":"portrait"}]}';
 
     
 var animal = '{"image":[' +
