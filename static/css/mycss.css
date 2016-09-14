@@ -46,11 +46,17 @@ footer p {
 
 .soc {
     text-align: center;
+    font-weight: 600;
+    font-size: 1.6em;
 }
 
 .soc1 {
     text-align: center;
     padding-top: 10px;
+}
+
+.soc_r {
+    vertical-align: middle;
 }
 
 .info {
@@ -218,7 +224,7 @@ hr {
 
 .brand-name {
     margin-top: 15px;
-    font-size: 4em;
+    font-size: 5em;
 }
 
 .tagline-divider {
@@ -445,6 +451,7 @@ a:link {
         table-layout: fixed;
         font-size: 1.25em;
         margin: 0;
+
     }
     
     .navbar-right {

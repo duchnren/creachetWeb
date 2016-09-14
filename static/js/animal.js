@@ -26,7 +26,7 @@ for (i = 0; i < teddy_len; i++) {
 
     $('#r1' + rx1 + px1 + '').append(
         '<div class="col-lg-2 col-offset-md-6 col-md-4 col-sm-4 col-xs-6">' +
-            '<a href="' + teddy.image[i].linkBig + '" data-toggle="lightbox" data-gallery="gall_animal" class="modal-body">' +
+            '<a href="' + teddy.image[i].linkBig + '" data-toggle="lightbox" data-gallery="gall_teddy" class="modal-body">' +
                 '<img class="img-responsive" src="' + teddy.image[i].linkSmall + '">' +
             '</a>' +
         '</div>'
