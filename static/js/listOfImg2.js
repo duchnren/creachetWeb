@@ -50,11 +50,11 @@ var doll_drat = '{"image":[' +
 +
     '{"gal":"fred","nameCZ":"Heidi","nameFR":"Heidi","nameEN":"Heidi","linkBig":"../static/img/heidi09_port.jpg","linkSmall":"../static/img/heidi09_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"fred","nameCZ":"Peter","nameFR":"Peter","nameEN":"Peter","linkBig":"../static/img/heidi03_port.JPG","linkSmall":"../static/img/heidi03_tumb.JPG","type":"portrait"},'
+    '{"gal":"fred","nameCZ":"Peter","nameFR":"Peter","nameEN":"Peter","linkBig":"../static/img/heidi03_port.jpg","linkSmall":"../static/img/heidi03_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"fred","nameCZ":"Heidi","nameFR":"Heidi","nameEN":"Heidi","linkBig":"../static/img/heidi01_port.JPG","linkSmall":"../static/img/heidi01_tumb.JPG","type":"portrait"},'
+    '{"gal":"fred","nameCZ":"Heidi","nameFR":"Heidi","nameEN":"Heidi","linkBig":"../static/img/heidi01_port.jpg","linkSmall":"../static/img/heidi01_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"fred","nameCZ":"Heidi","nameFR":"Heidi","nameEN":"Heidi","linkBig":"../static/img/heidi02_port.JPG","linkSmall":"../static/img/heidi02_tumb.JPG","type":"portrait"},'
+    '{"gal":"fred","nameCZ":"Heidi","nameFR":"Heidi","nameEN":"Heidi","linkBig":"../static/img/heidi02_port.jpg","linkSmall":"../static/img/heidi02_tumb.jpg","type":"portrait"},'
 +
     '{"gal":"dip","nameCZ":"Martin Diplomat","nameFR":"Découvreur Frédéric","nameEN":"Discoverer Frederick","linkBig":"../static/img/martin01_port.JPG","linkSmall":"../static/img/martin01_tumb.JPG","type":"portrait"},'
 +
@@ -93,6 +93,37 @@ var doll_drat = '{"image":[' +
     '{"gal":"gal_fred","nameCZ":"Bedřich Zahradník","nameFR":"Frédéric Le Jardinier","nameEN":"Frederick Gardener","linkBig":"../static/img/fred07_port.jpg","linkSmall":"../static/img/fred07_tumb.jpg","type":"portrait"}]}';
 
     
+var teddy = '{"image":[' +
+
+    '{"gal":"animal","nameCZ":"","nameFR":"","nameEN":"","linkBig":"/static/img/med04_port.jpg","linkSmall":"/static/img/med04_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"","nameFR":"","nameEN":"","linkBig":"/static/img/med05_port.jpg","linkSmall":"/static/img/med05_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"","nameFR":"","nameEN":"","linkBig":"/static/img/med06_port.jpg","linkSmall":"/static/img/med06_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"","nameFR":"","nameEN":"","linkBig":"/static/img/med07_port.jpg","linkSmall":"/static/img/med07_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"","nameFR":"","nameEN":"","linkBig":"/static/img/med08_port.jpg","linkSmall":"/static/img/med08_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"","nameFR":"","nameEN":"","linkBig":"/static/img/med09_port.jpg","linkSmall":"/static/img/med09_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"Zimní méďa","nameFR":"Ourson d\'hiver","nameEN":"Winter Teddy","linkBig":"../static/img/meda02_port.jpg","linkSmall":"../static/img/meda02_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"Zimní méďa","nameFR":"Ourson d\'hiver","nameEN":"Winter Teddy","linkBig":"../static/img/meda00_port.jpg","linkSmall":"../static/img/meda00_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"Zimní méďa","nameFR":"Ourson d\'hiver","nameEN":"Winter Teddy","linkBig":"../static/img/meda01_port.jpg","linkSmall":"../static/img/meda01_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"Zimní méďa","nameFR":"Ourson d\'hiver","nameEN":"Winter Teddy","linkBig":"../static/img/meda03_port.jpg","linkSmall":"../static/img/meda03_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"Zimní méďa","nameFR":"Ourson d\'hiver","nameEN":"Winter Teddy","linkBig":"../static/img/meda04_port.jpg","linkSmall":"../static/img/meda04_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"Bébé méďa","nameFR":"Bébé ours","nameEN":"Baby Teddy","linkBig":"../static/img/med01_port.jpg","linkSmall":"../static/img/med01_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"Bébé méďa","nameFR":"Bébé ours","nameEN":"Baby Teddy","linkBig":"../static/img/med02_port.jpg","linkSmall":"../static/img/med02_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"Bébé méďa","nameFR":"Bébé ours","nameEN":"Baby Teddy","linkBig":"../static/img/med03_port.jpg","linkSmall":"../static/img/med03_tumb.jpg","type":"portrait"}]}';
+
+
 var animal = '{"image":[' +
     
     '{"gal":"animal","nameCZ":"Jednorožec z fialek","nameFR":"Licorne de violettes","nameEN":"Unicorn of violets","linkBig":"../static/img/konik01_land.jpg","linkSmall":"../static/img/konik01_tumb.jpg","type":"landscape"},'
@@ -115,33 +146,21 @@ var animal = '{"image":[' +
 +
     '{"gal":"animal","nameCZ":"Divoké selátko Joseph","nameFR":"Joseph le marcassin","nameEN":"Wild piglet Joseph","linkBig":"../static/img/jo02_land.jpg","linkSmall":"../static/img/jo02_tumb.jpg","type":"landscape"},'
 +
-    '{"gal":"animal","nameCZ":"Růžový šnek","nameFR":"Escargot rose","nameEN":"Pink snail","linkBig":"../static/img/snek01_land.jpg","linkSmall":"../static/img/snek01_tumb.jpg","type":"landscape"},'
+    '{"gal":"animal","nameCZ":"Fialový šnek","nameFR":"Escargot violet","nameEN":"Violet snail","linkBig":"../static/img/snek07_land.jpg","linkSmall":"../static/img/snek07_tumb.jpg","type":"landscape"},'
 +
-    '{"gal":"animal","nameCZ":"Růžový šnek","nameFR":"Escargot rose","nameEN":"Pink snail","linkBig":"../static/img/snek02_land.jpg","linkSmall":"../static/img/snek02_tumb.jpg","type":"landscape"},'
-+
-    '{"gal":"animal","nameCZ":"Bébé méďa","nameFR":"Bébé ours","nameEN":"Baby Teddy","linkBig":"../static/img/med01_port.jpg","linkSmall":"../static/img/med01_tumb.jpg","type":"portrait"},'
-+
-    '{"gal":"animal","nameCZ":"Bébé méďa","nameFR":"Bébé ours","nameEN":"Baby Teddy","linkBig":"../static/img/med02_port.jpg","linkSmall":"../static/img/med02_tumb.jpg","type":"portrait"},'
-+
-    '{"gal":"animal","nameCZ":"Bébé méďa","nameFR":"Bébé ours","nameEN":"Baby Teddy","linkBig":"../static/img/med03_port.jpg","linkSmall":"../static/img/med03_tumb.jpg","type":"portrait"},'
+    '{"gal":"animal","nameCZ":"Fialový šnek","nameFR":"Escargot violet","nameEN":"Violet snail","linkBig":"../static/img/snek08_land.jpg","linkSmall":"../static/img/snek08_tumb.jpg","type":"landscape"},'
 +
     '{"gal":"animal","nameCZ":"Bébé králík","nameFR":"Bébé lapin","nameEN":"Baby Banny","linkBig":"../static/img/kral01_port.jpg","linkSmall":"../static/img/kral01_tumb.jpg","type":"portrait"},'
 +
     '{"gal":"animal","nameCZ":"Bébé králík","nameFR":"Bébé lapin","nameEN":"Baby Bunny","linkBig":"../static/img/kral02_port.jpg","linkSmall":"../static/img/kral02_tumb.jpg","type":"portrait"},'
 +
-    '{"gal":"animal","nameCZ":"Zimní méďa","nameFR":"Ourson d\'hiver","nameEN":"Winter Teddy","linkBig":"../static/img/meda00_port.jpg","linkSmall":"../static/img/meda00_tumb.jpg","type":"portrait"},'
-+
-    '{"gal":"animal","nameCZ":"Zimní méďa","nameFR":"Ourson d\'hiver","nameEN":"Winter Teddy","linkBig":"../static/img/meda01_port.jpg","linkSmall":"../static/img/meda01_tumb.jpg","type":"portrait"},'
-+
-    '{"gal":"animal","nameCZ":"Zimní méďa","nameFR":"Ourson d\'hiver","nameEN":"Winter Teddy","linkBig":"../static/img/meda02_port.jpg","linkSmall":"../static/img/meda02_tumb.jpg","type":"portrait"},'
-+
-    '{"gal":"animal","nameCZ":"Zimní méďa","nameFR":"Ourson d\'hiver","nameEN":"Winter Teddy","linkBig":"../static/img/meda03_port.jpg","linkSmall":"../static/img/meda03_tumb.jpg","type":"portrait"},'
-+
-    '{"gal":"animal","nameCZ":"Zimní méďa","nameFR":"Ourson d\'hiver","nameEN":"Winter Teddy","linkBig":"../static/img/meda04_port.jpg","linkSmall":"../static/img/meda04_tumb.jpg","type":"portrait"},'
-+
     '{"gal":"animal","nameCZ":"Ptáček","nameFR":"Petit oiseau","nameEN":"Little bird","linkBig":"../static/img/ptak01_port.jpg","linkSmall":"../static/img/ptak01_tumb.jpg","type":"portrait"},'
 +
     '{"gal":"animal","nameCZ":"Žirafa","nameFR":"Girafe","nameEN":"Giraffe","linkBig":"../static/img/zirafa_port.jpg","linkSmall":"../static/img/zirafa_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"Sob Tonda","nameFR":"Renne Tonda","nameEN":"Reindeer Tonda","linkBig":"../static/img/sob02_port.jpg","linkSmall":"../static/img/sob02_tumb.jpg","type":"portrait"},'
++
+    '{"gal":"animal","nameCZ":"Sob Tonda","nameFR":"Renne Tonda","nameEN":"Reindeer Tonda","linkBig":"../static/img/sob01_port.jpg","linkSmall":"../static/img/sob01_tumb.jpg","type":"portrait"},'
 +
     '{"gal":"animal","nameCZ":"Šnečí rodina","nameFR":"Famille d\'escargots","nameEN":"Snail family","linkBig":"../static/img/snek03_land.jpg","linkSmall":"../static/img/snek03_tumb.jpg","type":"landscape"},'
 +
@@ -149,15 +168,11 @@ var animal = '{"image":[' +
 +
     '{"gal":"animal","nameCZ":"Šnečí rodina","nameFR":"Famille d\'escargots","nameEN":"Snail family","linkBig":"../static/img/snek06_land.jpg","linkSmall":"../static/img/snek06_tumb.jpg","type":"landscape"},'
 +
-    '{"gal":"animal","nameCZ":"Fialový šnek","nameFR":"Escargot violet","nameEN":"Violet snail","linkBig":"../static/img/snek07_land.jpg","linkSmall":"../static/img/snek07_tumb.jpg","type":"landscape"},'
-+
-    '{"gal":"animal","nameCZ":"Fialový šnek","nameFR":"Escargot violet","nameEN":"Violet snail","linkBig":"../static/img/snek08_land.jpg","linkSmall":"../static/img/snek08_tumb.jpg","type":"landscape"},'
-+
     '{"gal":"animal","nameCZ":"Barevný šnek","nameFR":"Escargot coloré","nameEN":"Colourful snail","linkBig":"../static/img/snek09_land.jpg","linkSmall":"../static/img/snek09_tumb.jpg","type":"landscape"},'
 +
-    '{"gal":"animal","nameCZ":"Sob Tonda","nameFR":"Renne Tonda","nameEN":"Reindeer Tonda","linkBig":"../static/img/sob02_port.jpg","linkSmall":"../static/img/sob02_tumb.jpg","type":"portrait"},'
+    '{"gal":"animal","nameCZ":"Růžový šnek","nameFR":"Escargot rose","nameEN":"Pink snail","linkBig":"../static/img/snek01_land.jpg","linkSmall":"../static/img/snek01_tumb.jpg","type":"landscape"},'
 +
-    '{"gal":"animal","nameCZ":"Sob Tonda","nameFR":"Renne Tonda","nameEN":"Reindeer Tonda","linkBig":"../static/img/sob01_port.jpg","linkSmall":"../static/img/sob01_tumb.jpg","type":"portrait"},'
+    '{"gal":"animal","nameCZ":"Růžový šnek","nameFR":"Escargot rose","nameEN":"Pink snail","linkBig":"../static/img/snek02_land.jpg","linkSmall":"../static/img/snek02_tumb.jpg","type":"landscape"},'
 +
     '{"gal":"animal","nameCZ":"Sob Tom","nameFR":"Renne Tom","nameEN":"Reindeer Tom","linkBig":"../static/img/sob03_port.jpg","linkSmall":"../static/img/sob03_tumb.jpg","type":"portrait"},'
 +

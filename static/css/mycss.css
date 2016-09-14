@@ -91,6 +91,10 @@ hr {
     padding-right: 0px;
 }
 
+.skryt {
+    display: none;
+}
+
 .novinky {
     margin-top: 0px;
 }
@@ -294,6 +298,7 @@ footer p {
     color: #fff;
 }
 
+
 .en.odkaz {
     color: #fff;
 }
@@ -338,7 +343,7 @@ footer p {
 .res-dis {
     width: 100%;
     position: relative;
-    padding-bottom: 52vh;
+    padding-bottom: 50vh;
     overflow: hidden;
 }
 

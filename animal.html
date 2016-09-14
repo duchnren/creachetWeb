@@ -51,18 +51,66 @@
 
     <!-- Page Content -->
     <div class="container">
-        <div class="box">
-            <div class="col-lg-12">
-                <h3 id="head">
-                    <a href="gallery.html" class="zpet">
-                        <span class="cz">Zpět</span><span class="fr">Retour</span><span class="en">Back</span>
-                    </a>
-                    <span class="cz">Kolekce zvířátek</span>
-                    <span class="fr">Assortiment de jouets animaux</span>
-                    <span class="en">Assortment of toy animals</span>
-                    <hr>
-                </h3>
-                <div id="content"></div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" id="inspirace"></div>
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                <div class="box">
+                    <div class="col-lg-12">
+                        <h3 id="head">
+                            <a href="gallery.html" class="zpet">
+                                <span class="cz">Zpět</span><span class="fr">Retour</span><span class="en">Back</span>
+                            </a>
+                            <span class="cz">Zvířátka</span>
+                            <span class="fr">Jouets animaux</span>
+                            <span class="en">Toy animals</span>
+                            <hr>
+                        </h3>
+                        <div>
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active ac_dr col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <a href="#teddy" aria-controls="teddy" role="tab" data-toggle="tab">
+                                        <span class="cz pop">Méďové</span>
+                                        <span class="fr pop">Petits ours</span>
+                                        <span class="en pop">Teddy bears</span>
+                                    </a>
+                                </li>
+                                <li role="presentation" class="ac_nedr col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <a href="#ot_an" aria-controls="ot_an" role="tab" data-toggle="tab">
+                                        <span class="cz pop">Ostatní zvířátka</span>
+                                        <span class="fr pop">Autres animaux</span>
+                                        <span class="en pop">Other animals</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active teddy" id="teddy">
+                                    <div id="content_teddy"></div>
+<!--
+                                    <div class="row text-center">
+                                        <div class="col-lg-12">
+                                            <ul class="pagination pag1">
+                                                 <li></li> mnozstvi polozek zavisi na poctu stranek - generuji se
+                                            </ul>
+                                        </div>
+                                    </div>
+-->
+                                </div>
+                                <div role="tabpanel" class="tab-pane zver" id="ot_an">
+                                    <div id="content_zver"></div>
+<!--
+                                    <div class="row text-center">
+                                        <div class="col-lg-12">
+                                            <ul class="pagination pag2">
+                                                 <li></li> mnozstvi polozek zavisi na poctu stranek - generuji se
+                                            </ul>
+                                        </div>
+                                    </div>
+-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -105,6 +153,12 @@
     <script>
     $(function() {
         $('#menu').load('navbar.html');
+    })
+    </script>
+
+    <script>
+    $(function() {
+        $('#inspirace').load('inspirace.html');
     })
     </script>
 

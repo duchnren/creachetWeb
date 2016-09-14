@@ -24,6 +24,10 @@
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Kalam:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
+    <!-- ekko-Lightbox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.css" />
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -46,69 +50,54 @@
 
     <!-- Page Content -->
     <div class="container">
-        <div class="box">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="text-center">
-                        <span class="cz"><strong>Inspirace</strong></span>
-                        <span class="fr"><strong>Inspiration</strong></span>
-                        <span class="en"><strong>Inspiration</strong></span>
-                    </h2>
-                    <hr>
+        <div class="row">
+<!--            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" id="inspirace"></div>-->
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="box">
+                <h3 class="text-center">
+                    <span class="cz"><strong>Inspirace</strong></span>
+                    <span class="fr"><strong>Inspiration</strong></span>
+                    <span class="en"><strong>Inspiration</strong></span>
+                </h3>
+            <hr>
                 </div>
             </div>
-            
-            <!-- Projects Row -->
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                    <button type="button" id="doll" class="btn btn-success btn-lg" onClick="location.href='dolls.html'">
-                        <img class="img-responsive img-rounded" src="static/img/doll08_tumb.jpg" alt="">
-                        <span class="cz btn_col">Panenky</span>
-                        <span class="fr btn_col">Poupées</span>
-                        <span class="en btn_col">Dolls</span>
-                    </button>
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                <div class="box uv" id="uv_box">
+                    <p class="info">
+                        <span class="cz">Nejraději háčkuji panenky a zvířátka, ale nebráním se filmovým a komiksovým postavičkám. Předlohu si můžete vybrat zde nebo mi můžete poslat vlastní obrázek. Pokud pro Vámi vybraný výrobek nemám předpis, ráda ho pro Vás vymyslím.</span>
+                        <span class="fr">Je préfère avant tout crocheter des poupées et des animaux, mais je ne suis pas opposée aux personnages de cinéma ou de BD. Si vous le désirez, vous pouvez choisir un modèle ici ou m'envoyer votre propre illustration. S’il n’existe pas de patron pour le modèle que vous aurez choisi, je l’invente volontiers.</span>
+                        <span class="en">I prefer to crochet dolls and animals, but I have also experience with movie or comic characters. If you wish you can choose a template here or send me your own suggestion. If there are no crocheting instructions for the model you choose I can create them.</span>
+                    </p>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                    <button type="button" id="animal" class="btn btn-success btn-lg" onClick="location.href='animal.html'">
-                        <img class="img-responsive img-rounded" src="static/img/meda03_tumb.jpg" alt="">
-                        <span class="cz btn_col">Zvířátka</span>
-                        <span class="fr btn_col">Jouets animaux</span>
-                        <span class="en btn_col">Toy animals</span>
-                    </button>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 portfolio-item">
-                    <button type="button" id="tv" class="btn btn-success btn-lg" onClick="location.href='movie.html'">
-                        <img class="img-responsive img-rounded" src="static/img/pat02_tumb.jpg" alt="">
-                        <span class="cz btn_col">Filmoví hrdinové</span>
-                        <span class="fr btn_col">'Héros de cinéma</span>
-                        <span class="en btn_col">Movie heroes</span>
-                    </button>
-                </div>
-<!--
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 portfolio-item">
-                    <button type="button" id="bella" class="btn btn-success btn-lg" onClick="location.href='talento.html'">
-                        <img class="img-responsive img-rounded" src="static/img/bard07_tumb.jpg" alt="">
-                        <span class="cz btn_col">Panenky Talento</span>
-                        <span class="fr btn_col">Poupeés Talento</span>
-                        <span class="en btn_col">Dolls Talento</span>
-                    </button>
-                </div>
--->
-            </div>
-        </div>
-        <div class="box">
-            <div class="col-lg-12">
-                <div class="row dis">
-                    <div class="res-dis">
-                        <iframe class="cz" src="disCZ.html"></iframe>
-                        <iframe class="fr" src="disFR.html"></iframe>
-                        <iframe class="en" src="disEN.html"></iframe>
+                <div class="box">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <button type="button" id="panenky" class="btn btn-success btn-block" onClick="location.href='dolls.html'">
+                                <span class="cz pop">Panenky</span>
+                                <span class="fr pop">Poupées</span>
+                                <span class="en pop">Dolls</span>
+                            </button>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <button type="button" id="zviratka" class="btn btn-success btn-block" onClick="location.href='animal.html'">
+                                <span class="cz pop">Zvířátka</span>
+                                <span class="fr pop">Jouets animaux</span>
+                                <span class="en pop">Toy animals</span>
+                            </button>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <button type="button" id="hrdinove" class="btn btn-success btn-block" onClick="location.href='movie.html'">
+                                <span class="cz pop">Filmoví hrdinové</span>
+                                <span class="fr pop">Héros de cinéma</span>
+                                <span class="en pop">Movie heroes</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /.container -->
 
     <footer>
         <div class="container">
@@ -127,7 +116,15 @@
     <script src="/static/js/bootstrap.min.js"></script>
 
     <!-- Own scripts -->
-    <!--<script src="/static/js/click.js"></script>-->
+<!--
+    <script src="static/js/listOfImg2.js"></script>
+    <script src="static/js/doll_bezdrat.js"></script>
+    <script src="static/js/doll_drat.js"></script>
+    <script src="static/js/animal.js"></script>
+    <script src="static/js/tv.js"></script>
+    <script src="static/js/click.js"></script>
+-->
+
     
     <!-- StyleSheet Switcher v1.1 Dinamic Drive DHTML (www.dynamicdrive.com) -->
     <script src="/static/js/styleswitch.js" type="text/javascript"></script>
@@ -138,6 +135,11 @@
     })
     </script>
     
+       <script>
+    $(function() {
+        $('#inspirace').load('inspirace.html');
+    })
+    </script>
     
     <!-- Google Analytics -->
     <script>

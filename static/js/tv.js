@@ -14,7 +14,7 @@ var id_gal, next, prev;
 pag = Math.ceil(tv_len/img_page);
 
 for (j=0; j < pag; j++) {
-    $('#content').append('<div id="i' + j + '" class="z"></div>');
+    $('#content_tv').append('<div id="i' + j + '" class="z"></div>');
     str = j + 1;
     /*$('.pagination').append('<li class="pagi" id="j' + j + '"><a href="#">' + str + '</a></li>');
     $('#j0').addClass("active");*/
@@ -29,7 +29,7 @@ for (i = 0; i < tv_len; i++) {
     
     $('#r' + rx + px + '').append(
         '<div class="col-lg-2 col-offset-md-6 col-md-4 col-sm-4 col-xs-6">' +
-            '<a href="' + tv.image[i].linkBig + '" data-toggle="lightbox" data-gallery="multiimages" class="modal-body">' +
+            '<a href="' + tv.image[i].linkBig + '" data-toggle="lightbox" data-gallery="gall_tv" class="modal-body">' +
                 '<img class="img-responsive" src="' + tv.image[i].linkSmall + '">' +
             '</a>' +
         '</div>'
